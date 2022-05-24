@@ -146,6 +146,13 @@ var displayWeather = function (weather) {
 
 }
 
+// Search weather using search history buttons
+var buttonClickHandler = function (event) {
+    var cityname = event.target.getAttribute("data-city");
+    if (cityname) {
+        getWeatherInfo(cityname);
+    }
+}
 
 // Load any past city weather searches
 var loadHistory = function () {
