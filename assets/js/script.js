@@ -34,7 +34,7 @@ var formSubmitHandler = function (event) {
      }
 };
 
-// Get weather information from OpenWeather
+// Get weather information from api
 var getWeatherInfo = function (cityname) {
     var apiCityUrl = "https://api.openweathermap.org/data/2.5/weather?q=" + cityname + "&units=imperial&appid=f97301447cbd41068af8623a398ba1fb";
     fetch(
@@ -146,6 +146,7 @@ var displayWeather = function (weather) {
 
 }
 
+
 // Load any past city weather searches
 var loadHistory = function () {
     searchArray = JSON.parse(localStorage.getItem("weatherSearch"));
@@ -160,10 +161,9 @@ var loadHistory = function () {
             historyButtonsEl.appendChild(searchHistoryEl);
             historyCardEl.removeAttribute("style");
         }
-
     }
 }
 loadHistory();
 
 cityFormEl.addEventListener("submit", formSubmitHandler);
-
+historyButtonsEl.addEventListener("click", buttonClickHandler);
