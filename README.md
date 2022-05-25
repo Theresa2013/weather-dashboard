@@ -41,8 +41,8 @@ https://theresa2013.github.io/weather-dashboard/
 https://github.com/Theresa2013/weather-dashboard.git 
 
 ## Screenshots
-![demo](assets%5Cimages%5CScreenshot%20(58).png)
-![demo](assets%5Cimages%5CScreenshot%20(59).png)
+![demo](./assets/images/Screenshot1.png)
+![demo](./assets/images/Screenshot2.png)
 
 Contribution
 Made by Theresa Butterfield
