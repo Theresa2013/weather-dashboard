@@ -28,10 +28,10 @@ THEN I am again presented with current and future conditions for that city
 ```
 
 ## Built With:
-HTML
-CSS
-Javascript
-OpenWeather One Call API
+* HTML
+* CSS
+* Javascript
+* OpenWeather One Call API
 
 
 ## Website
@@ -41,8 +41,8 @@ https://theresa2013.github.io/weather-dashboard/
 https://github.com/Theresa2013/weather-dashboard.git 
 
 ## Screenshots
-![](assets%5Cimages%5CScreenshot%20(58).png)
-![](assets%5Cimages%5CScreenshot%20(59).png)
+![demo](assets%5Cimages%5CScreenshot%20(58).png)
+![demo](assets%5Cimages%5CScreenshot%20(59).png)
 
 Contribution
 Made by Theresa Butterfield
